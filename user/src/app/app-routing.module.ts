@@ -17,6 +17,7 @@ import { DoctorProfileComponent } from './profile/doctor-profile/doctor-profile.
 import { ProfileComponent } from './profile/profile/profile.component';
 import { ForgotPswrdComponent } from './auth/forgot-pswrd/forgot-pswrd.component';
 import { AuthGuard } from './auth.guard';
+import { NewcComponent } from './newc/newc.component';
 
 const routes: Routes = [
   // { path:'', redirectTo:'home',pathMatch:'full'},
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'why-to-chose', component: WhyToChoseComponent },
   { path: 'get-started', component: GetStartedComponent },
   { path: 'about-section', component: ImageComponent },
+  {path:'newc',component:NewcComponent},
 
   { path: 'connect-to-doctor', component: ConnectToDoctorComponent },
   {

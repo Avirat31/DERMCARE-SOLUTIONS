@@ -23,6 +23,7 @@ import { PdfGeneratorServiceService } from './pdf-generator-service.service';
 import { ConnectToDoctorComponent } from './connect-to-doctor/connect-to-doctor.component';
 import { AuthModule } from './auth/auth.module';
 import { UploadModule } from './upload/upload.module';
+import { NewcComponent } from './newc/newc.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +41,7 @@ import { UploadModule } from './upload/upload.module';
     WhyToChoseComponent,
     BasicImportanceComponent,
     ConnectToDoctorComponent,
+    NewcComponent,
   ],
   imports: [
     AuthModule, 

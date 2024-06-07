@@ -62,7 +62,7 @@ def upload_image():
 
     return jsonify('File type not allowed'), 400
 
-
+#jwt token starts here
 app.config['SECRET_KEY'] = 'your-secret-key'  # Replace with a secure secret key
 
 # Replace this with your actual database or storage logic
